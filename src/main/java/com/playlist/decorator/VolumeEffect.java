@@ -13,7 +13,8 @@ public final class VolumeEffect extends AudioEffect {
 
   @Override
   protected String describe() {
-    return String.format(Locale.ROOT, "volumw(%.1f)", factor);
+
+      return String.format(Locale.ROOT, "volume(%.1f)", factor);
   }
 
   @Override

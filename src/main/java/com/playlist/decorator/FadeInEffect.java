@@ -24,7 +24,7 @@ public final class FadeInEffect extends AudioEffect {
 
     int limit = Math.min(sampleCount, result.length);
     for (int i = 0; i < limit; i ++){
-        result[i] = result[i] * ((double) i - sampleCount);
+        result[i] = result[i] * ((double) i / sampleCount);
     }
     return result;
   }

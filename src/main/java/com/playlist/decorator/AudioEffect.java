@@ -19,6 +19,6 @@ public abstract class AudioEffect implements AudioTrack {
 
   @Override
   public String getEffectChain() {
-      return wrapped.getEffectChain();
+      return wrapped.getEffectChain() + " -> " + describe();
   }
 }
