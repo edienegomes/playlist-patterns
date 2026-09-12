@@ -6,12 +6,6 @@ import com.playlist.core.Subscription;
 import com.playlist.core.TrackNotFoundException;
 import com.playlist.decorator.AudioTrack;
 
-/**
- * Fachada que esconde do mundo externo a colaboração entre catálogo, playlists,
- * streams protegidos e efeitos de áudio.
- *
- * Quem usa a Playlist precisa conhecer apenas esta classe.
- */
 public class PlaylistFacade {
 
   /**
